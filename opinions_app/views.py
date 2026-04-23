@@ -1,6 +1,6 @@
 from random import randrange
 
-from flask import abort, flash, jsonify, redirect, render_template, url_for
+from flask import abort, flash, redirect, render_template, url_for
 
 
 from . import app, db
